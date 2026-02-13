@@ -1,0 +1,12 @@
+# Ignore local logs and environment files
+generate_log.txt
+.env
+*.local
+*.secret
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
