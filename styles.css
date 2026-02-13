@@ -14,7 +14,9 @@ html,body{height:100%;margin:0;background:var(--bg);color:#111}
 /* Header */
 .site-header{position:sticky;top:0;background:linear-gradient(90deg,rgba(255,255,255,0.95),rgba(255,255,255,0.9));backdrop-filter:blur(6px);border-bottom:1px solid #f3f3f3;z-index:40}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 16px}
-.logo{font-weight:700;color:var(--brand);font-size:1.125rem}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--brand);font-size:1.125rem}
+.site-logo{height:44px;width:auto;object-fit:contain}
+.logo-text{font-weight:800;color:var(--brand)}
 .nav a{margin-left:12px;color:var(--muted);text-decoration:none;font-weight:600}
 
 /* Hero */
