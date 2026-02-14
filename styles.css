@@ -32,6 +32,7 @@ html,body{height:100%;margin:0;background:var(--bg);color:#111}
 
 /* Menu */
 .menu-section{padding:20px 0}
+.menu-section .container{max-width:none;margin:0;padding-left:14px;padding-right:14px}
 .menu-section h2{margin:4px 0 6px}
 .muted{color:var(--muted)}
 .menu-grid{display:grid;gap:20px}
